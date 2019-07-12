@@ -123,6 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="connection.cpp" />
+    <ClCompile Include="spaceBattleServer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="connection.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
