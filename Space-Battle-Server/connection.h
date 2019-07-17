@@ -72,7 +72,7 @@ public:
 	void sendDataToClient(string data, SOCKET client) throw (const int);
 	string receiveDataFromClient(SOCKET client) throw (const int);
 
-	vector<SOCKET> getSockets() const { return sockets; }
+	vector<SOCKET>& getSockets() { return sockets; }
 };
 
 #endif
