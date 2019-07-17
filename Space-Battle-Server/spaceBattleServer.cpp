@@ -57,6 +57,7 @@ int main()
 
 	//Send GO
 	cout << "Sending start...\n";
+	this_thread::sleep_for(chrono::seconds(2));
 	sendStart();
 
 	cout << "Game start!\n\n";
